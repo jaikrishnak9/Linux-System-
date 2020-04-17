@@ -1,0 +1,8 @@
+dos2unix is a linux package 
+
+Purpose - when you try to run "install.sh" if you see an error "install.sh" not found and the same repeated many times means "install.sh" is 
+created in dos format which is not compatible to unix format. To find more descriptive error run install.sh using "sudo bash install.sh". Then
+you will see a error '\r': command not found.
+So first "install.h" need to be converted to unix format. "dos2unix" package helps in this situation.
+
+So, first install dos2unix package then convert install.sh to unix format. run "dos2unix install.sh"
